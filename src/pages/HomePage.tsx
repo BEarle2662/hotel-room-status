@@ -125,7 +125,7 @@ export default function HomePage() {
                     <div className="flex items-center justify-between mb-3">
                       <h4 className="text-lg font-semibold">
                         Room {room.number}{" "}
-                        <span className="text-black ml-4 bg-gray-200 rounded-lg text-sm px-4 py-1">
+                        <span className="text-black ml-2 bg-gray-200 rounded-lg text-sm px-4 py-1">
                           {room.roomType}
                         </span>
                       </h4>
