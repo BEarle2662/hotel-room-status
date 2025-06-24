@@ -167,7 +167,7 @@ export default function TaskLogsPage() {
               <select
                 value={selectedFloor}
                 onChange={(e) => setSelectedFloor(e.target.value === 'all' ? 'all' : Number(e.target.value))}
-                className="pl-10 pr-4 py-2 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
+                className="pl-10 pr-4 py-2 rounded-md border border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
               >
                 <option value="all">All Floors</option>
                 {[1, 2, 3, 4].map(floor => (
