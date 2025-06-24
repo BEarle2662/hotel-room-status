@@ -135,7 +135,7 @@ export default function RoomDetailsPage() {
             <select
               value={selectedStatus}
               onChange={(e) => setSelectedStatus(e.target.value as RoomStatus)}
-              className="rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
+              className="px-4 py-2 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
             >
               {(
                 [
@@ -161,7 +161,7 @@ export default function RoomDetailsPage() {
               value={newTask}
               onChange={(e) => setNewTask(e.target.value)}
               placeholder="Add new task..."
-              className="flex-1 rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-2 py-3"
+              className="flex-1 rounded-md border border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-2 py-3"
               onKeyPress={(e) => e.key === "Enter" && handleAddTask()}
             />
             <button

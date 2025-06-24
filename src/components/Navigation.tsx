@@ -33,6 +33,7 @@ export default function Navigation() {
               Task Logs
             </Link>
           </div>
+          <h1 className='text-lg lg:text-3xl font-semibold text-right my-auto'>Hotel Rooms Management System</h1>
         </div>
       </div>
     </nav>
