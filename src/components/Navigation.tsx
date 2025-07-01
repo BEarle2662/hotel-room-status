@@ -8,6 +8,8 @@ export default function Navigation() {
   return (
     <nav className="bg-white shadow-lg">
       <div className="container mx-auto px-4">
+         <h1 className='text-base lg:text-3xl font-semibold text-center my-auto py-4 bg-gray-200 rounded-md'>Hotel Room Status & House Keeping Management System - THE PARK Visakhapatnam</h1>
+
         <div className="flex justify-between h-16">
           <div className="flex space-x-8">
             <Link
@@ -33,7 +35,7 @@ export default function Navigation() {
               Task Logs
             </Link>
           </div>
-          <h1 className='text-lg lg:text-3xl font-semibold text-right my-auto'>Hotel Rooms Management System</h1>
+{/*           <h1 className='text-lg lg:text-3xl font-semibold text-right my-auto'>Hotel Rooms Management System</h1> */}
         </div>
       </div>
     </nav>
